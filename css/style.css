@@ -1,0 +1,70 @@
+/* COMMONS */
+.ms_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_bgdark{
+    background-color: #2c3e50;
+}
+
+.ms_cyan{
+    background-color: #1abc9c;
+}
+
+/* .ms_darkcyan{
+    background-color: #1b6153;
+}
+
+.ms_magenta{
+    background-color: #ba4b63;
+}
+
+.ms_lightblue{
+    background-color: #1ea4b6;
+}
+
+.ms_blue{
+    background-color: #1c83c1;
+}
+
+.ms_darkblue{
+    background-color: #0e38b5;
+}
+
+.ms_beige{
+    background-color: #ccb2a3;
+} */
+
+/* /COMMONS */
+
+
+/* JUMBO */
+#jumbo img{
+    max-width: 250px;
+}
+/* /JUMBO */
+
+
+/* PORTFOLIO */
+
+/* /PORTFOLIO */
+
+
+/* DEBUG */
+
+/* DA FIXARE */
+/* Nella row gli elementi card si allontanano tra loro */
+
+
+/* BREAKPOINT */
+/* 
+Breakpoint   	    Dimensions
+X-Small 	None    <576px
+Small 	    sm 	    ≥576px
+Medium 	    md 	    ≥768px
+Large 	    lg 	    ≥992px
+Extralarge 	xl 	    ≥1200px
+XXlarge 	xxl     ≥1400px 
+*/

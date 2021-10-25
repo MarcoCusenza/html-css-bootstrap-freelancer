@@ -5,11 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap Freelancer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
 
+<body class="debug">
+    <!-- HEADER -->
+    <header class="container-fluid ms_bgdark">
+        <nav class="navbar navbar-expand-md navbar-dark container-md">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- /HEADER -->
+
+
+    <!-- MAIN -->
+    <main>
+        <!-- JUMBO -->
+        <div id="jumbo" class="container-fluid ms_cyan ms_flex flex-column p-4 text-light">
+            <img src="img/avatar.svg" alt="avatar">
+            <h1 class="text-uppercase">start bootstrap</h1>
+            <div class="divider">------</div>
+            <div class="subtitle">graphic - web - illustrator</div>
+        </div>
+        <!-- /JUMBO -->
+
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="container-md p-4 ms_flex flex-column">
+            <h2 class="text-uppercase">portfolio</h2>
+            <div class="divider">------</div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="casetta di legno" class="rounded w-100">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="fetta di torta" class="rounded w-100">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/circus.png" alt="tenda circo" class="rounded w-100 ">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="joypad" class="rounded w-100">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="cassaforte" class="rounded w-100">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/submarine.png" alt="sottomarino" class="rounded w-100">
+                </div>
+            </div>
+        </section>
+        <!-- /PORTFOLIO -->
+
+
+        <!-- ABOUT -->
+        <section id="about" class="container-fluid ms_cyan ms_flex flex-column p-4 text-light">
+            <h4>about</h4>
+            <div class="divider">------</div>
+            <div class="row container-md px-5 g-4">
+                <div class="col-12 col-md-6">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, rem. Maxime tenetur, similique
+                    dicta perspiciatis quod incidunt error possimus officiis delectus earum! Repudiandae, voluptatibus
+                    corrupti dolore iste similique earum dolorem?
+                </div>
+                <div class="col-12 col-md-6">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, rem. Maxime tenetur, similique
+                    dicta perspiciatis quod incidunt error possimus officiis delectus earum! Repudiandae, voluptatibus
+                    corrupti dolore iste similique earum dolorem?
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <!-- /ABOUT -->
+
+    </main>
+    <!-- /MAIN -->
+
+
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+    <!-- /FOOTER -->
 </body>
 
 </html>
