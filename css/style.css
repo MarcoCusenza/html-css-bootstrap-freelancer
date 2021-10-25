@@ -54,6 +54,14 @@
 
 /* DEBUG */
 
+.debug .form{
+    background-color: deepskyblue;
+    height: 300px;
+    width: 200px;
+}
+
+
+
 /* DA FIXARE */
 /* Nella row gli elementi card si allontanano tra loro */
 
