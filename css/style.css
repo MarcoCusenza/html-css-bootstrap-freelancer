@@ -21,6 +21,10 @@
     background-color: #2c3e50;
 }
 
+.ms_copy-sym::after{
+    content:"\00a9";
+}
+
 /* Colori */
 .ms_bgdarkblue{
     background-color: #2c3e50;
@@ -50,6 +54,10 @@
     color: #fff;
     background-color: #1abc9c;
     border-color: #1abc9c;
+}
+
+.ms_text-cyan{
+    color: #1abc9c;
 }
 
 
